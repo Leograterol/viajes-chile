@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: auto !important;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+.navbar-brand {
+    font-family: "Oswald";
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+#inicio {
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+#inicio section {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+
+h1 {
+    font-family: "Oswald";
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Oswald";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.texto {
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.img-top{
+    border-radius: 5%;
+}
+
+.card-title {
+    font-family: "Oswald";
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.card-text {
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#footer a {
+
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-family: "Oswald";
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 1rem;
+    }
+
+
+    h1 {
+        font-family: "Oswald";
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-family: "Oswald";
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .texto {
+        font-family: "Oswald";
+        font-size: 18px;
+        font-weight: 200;
+        text-align: justify;
+    }
+
+    .card-title {
+        font-family: "Oswald";
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .card-text {
+        font-family: "Oswald";
+        font-size: 18px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+}
