@@ -5,15 +5,15 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 
 
- $(document).ready(function () {
+$(document).ready(function () {
 
     /*click btn enviar Correo*/
     $("#enviar-datos").click(function () {
-      
+
         alert("Tus datos se han enviado correctamente...");
     });
 
-  
+
     /*cambiar color de subtitulo a Rojo con doble click*/
     $("#titulos").on("dblclick", function () {
         $(this).css({
@@ -28,7 +28,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             "color": "black"
         });
     });
-    
+
     $("h2").on("dblclick", function () {
         $(this).css({
             "color": "red"
@@ -49,19 +49,19 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         $('.card-text').toggle("slow");
     });
 
-/*hacer un smooth control*/
+    /*hacer un smooth control*/
     $("a").on('click', function (event) {
         if (this.hash !== "") {
-          event.preventDefault();
-    
-          var hash = this.hash;
-    
-          $('html, body').animate(
-            {
-              scrollTop: $(hash).offset().top-100
-            },
-            1500);
-        } 
-      });
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate(
+                {
+                    scrollTop: $(hash).offset().top - 100
+                },
+                1500);
+        }
+    });
 
 });
