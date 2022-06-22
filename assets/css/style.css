@@ -74,6 +74,7 @@ h2 {
 }
 
 .img-top {
+   
     border-radius: 5%;
 }
 
@@ -127,6 +128,9 @@ h2 {
         margin-left: 1rem;
     }
 
+    #inicio{
+        height: 300px;
+    }
 
     h1 {
         font-family: "Oswald";
@@ -147,6 +151,8 @@ h2 {
         text-align: justify;
     }
 
+
+
     .card-title {
         font-family: "Oswald";
         font-size: 25px;
@@ -160,4 +166,20 @@ h2 {
         text-align: justify;
     }
 
+
+    .bt{
+        
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    #footer h1{
+        font-size: 25px;
+    }
+
+    #footer i {
+       font-size: 25px;
+        
+    }
 }
+
