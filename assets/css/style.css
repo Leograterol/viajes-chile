@@ -23,23 +23,9 @@ body {
 }
 
 /* header*/
-#inicio {
-    background-image: url("../img/bg-hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
 
 
-#inicio section {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
+
 
 .carousel-indicators [data-bs-target] {
     height: 15px;
@@ -130,35 +116,31 @@ h2 {
 
     .navbar-brand {
         font-family: "Oswald";
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 700;
         margin-left: 1rem;
+    
     }
     .imgnb{
-        width: 50px;
+        width: 35px;
     }
         
     
-
-    #inicio{
-        height: 300px;
-    }
-
     h1 {
-        font-family: "Oswald";
-        font-size: 40px;
-        font-weight: 700;
-    }
-
-    h2 {
         font-family: "Oswald";
         font-size: 30px;
         font-weight: 700;
     }
 
+    h2 {
+        font-family: "Oswald";
+        font-size: 25px;
+        font-weight: 700;
+    }
+
     .texto {
         font-family: "Oswald";
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 200;
         text-align: justify;
     }
@@ -167,13 +149,13 @@ h2 {
 
     .card-title {
         font-family: "Oswald";
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 400;
     }
 
     .card-text {
         font-family: "Oswald";
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         text-align: justify;
     }
@@ -186,11 +168,11 @@ h2 {
     }
     
     #footer h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #footer i {
-       font-size: 30px;
+       font-size: 25px;
         
     }
 }

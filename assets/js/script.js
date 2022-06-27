@@ -60,7 +60,7 @@ $(document).ready(function () {
                 {
                     scrollTop: $(hash).offset().top - 100
                 },
-                1500);
+                500);
         }
     });
 
